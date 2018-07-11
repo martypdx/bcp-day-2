@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Page</title>
+    <style>
+        h1 {
+            color: red;
+        }
+
+        h2, .section-heading {
+            color: blue;
+        }
+
+        h3 {
+            font-family: Helvetica;
+            font-size: 25px;
+        }
+
+        .flag {
+            width: 250px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,12 +33,12 @@
         <p>This is the finest HTML page ever created.</p>
         <hr>
  
-        <h2>Lists of Things</h2>
+        <h2 class="section-heading">Lists of Things</h2>
         
         <h3>Fruits</h3>
         <ul>
             <li>Bananas</li>
-            <li>Apples</li>
+            <li class="section-heading">Apples</li>
             <li>Oranges</li>
             <li>Cherries</li>
         </ul>
@@ -35,11 +53,11 @@
         </ol>
 
         <hr>
-        <h2>Image</h2>
-        <div>
-            <img src="http://shop.flagshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/l/flag-pride-jolly-roger.gif">
-        </div>
-        <caption>Pirate Pride Flag</caption>
+        <h2 class="section-heading">Image</h2>
+        <figure>
+            <img class="flag" src="http://shop.flagshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/l/flag-pride-jolly-roger.gif">
+            <figcaption>Pirate Pride Flag</figcaption>
+        </figure>
 
         <hr>
         <h2>Links</h2>
